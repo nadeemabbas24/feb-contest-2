@@ -27,6 +27,9 @@ body{
 
 @media screen and (max-width:640px) {
    
+    .header{
+        width:100vw;
+    }
     .profile{
         flex-grow: 1;
     }
