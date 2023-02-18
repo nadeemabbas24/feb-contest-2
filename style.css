@@ -17,13 +17,13 @@ body{
     border-radius: 10px;
    
 }
-.header h1{
+.header p{
     margin-left:20px;
     margin-right:20px;
     font-size: 4rem;
     font-weight: 200;
     font-style: normal;
-    line-height: 58.09px;
+    line-height: 50.09px;
 }
 
 @media screen and (max-width:640px) {
@@ -32,7 +32,7 @@ body{
     .profile{
         flex-grow: 1;
     }
-    .header h1{
+    .header p{
 
         text-align: center;
         font-size: 1.5rem;
