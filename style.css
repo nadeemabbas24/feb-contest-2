@@ -14,8 +14,7 @@ body{
     display: flex;
     border:1px solid grey;
     margin:10px 20px 10px 20px;   
-    border-radius: 10px;
-   
+    border-radius: 10px;   
 }
 .header p{
     margin-left:20px;
@@ -51,17 +50,19 @@ body{
     height: 150px;
     padding-top: 10px;
 }
+.profile,.detail, .social, .table-box{
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin:10px 10px;
+}
 .profile{
     display: flex;
     flex-flow: column;
     flex-grow: 1;
     justify-content: center;
-    align-items: center;
-    border: 1px solid grey;
-    border-radius: 10px;
-    margin:10px 10px;
+    align-items: center;  
 }
-.table> h2{
+.table-box> h2{
     font-family: 'Inter';
     font-size: 2.5rem;
     font-weight: 100;
@@ -70,25 +71,15 @@ body{
     font-family: 'Inter';
     font-size: 1.5rem;
 }
-.detail{
-    border: 1px solid grey;
-    border-radius: 10px;
-    margin:10px 10px;
-}
+
 .detail li{
     padding: 10px;
 }
 .social {
-    border: 1px solid grey;
-    border-radius: 10px;
-    margin:10px 10px;
-    padding-left: 20px;
-    
+     padding-left: 20px;    
 }
-.table{
-    border: 1px solid grey;
-    border-radius: 10px;
-    margin:10px 10px;
+
+.table-box{
     padding:10px;
     flex-grow: 1;
 }
@@ -108,12 +99,10 @@ th, td{
 }
 th:last-child,td:last-child{
     text-align: left;
-    border-right: none;
-    
+    border-right: none;    
 }
  th {
-    border-bottom: 1px solid grey;
-   
+    border-bottom: 1px solid grey;   
 }
 span > img{
     width: 25px;
