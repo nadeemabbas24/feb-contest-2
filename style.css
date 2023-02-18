@@ -27,9 +27,7 @@ body{
 
 @media screen and (max-width:640px) {
    
-    .header{
-        width:100vw;
-    }
+    
     .profile{
         flex-grow: 1;
     }
@@ -38,6 +36,7 @@ body{
         font-size: 1.5rem;
         font-style: normal;
         line-height: 1.5rem;
+        width:100vw;
     }
     .profile h2{
         font-size: 1.5rem;
